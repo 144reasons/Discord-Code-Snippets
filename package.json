@@ -1,0 +1,27 @@
+{
+  "name": "discord-code-snippets",
+  "version": "1.0.0",
+  "description": "Save your code snippets on a discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somerandomcloud/Discord-Code-Snippets.git"
+  },
+  "author": "SamuOnDisc",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/somerandomcloud/Discord-Code-Snippets/issues"
+  },
+  "homepage": "https://github.com/somerandomcloud/Discord-Code-Snippets#readme",
+  "devDependencies": {
+    "eslint": "^7.31.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "discord.js": "^12.5.3",
+    "figlet": "^1.5.0"
+  }
+}
