@@ -3,10 +3,10 @@ const chalk = require('chalk');
 
 module.exports = {
 	name: 'message',
-	execute(message, client) {
+	async execute(message, client) {
 		// ──────────────────────────────────────────────────────────────────── [ Checks if the message uses the prefix or if the author is a bot ]
 
-		if (!message.content.toLowerCase().startsWith(prefix) || message.author.bot) {return;}
+		if (!message.content.toLowerCase().startsWith(prefix) || message.author.bot || await client.db.get(`${message.author.id}_blacklisted`)) {return;}
 
 		// ──────────────────────────────────────────────────────────────────── [ Makes it easier to define args later on in commands ]
 

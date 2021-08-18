@@ -17,7 +17,9 @@ module.exports = {
             
             - 📫 How to reach me **ICodeInAssembly#7117 on Discord**
             
-            - ⚡ Fun fact **I made my first npm package 15/07/2021!**`)
+            - ⚡ Fun fact **I made my first npm package 15/07/2021!**
+			
+			- 🖥️ I can make a custom bot for you! **DM me!** `)
 			.setTimestamp()
 			.setFooter(
 				`${client.user.username} || ${message.guild.name}`,
